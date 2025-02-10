@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+  
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Simple Calculator</title>
+  
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+  
+<body>
+  
+    <h2>calcU</h2>
+  
+    <p>This is a basic arithmetic calculator built using HTML, CSS, and JavaScript. This page allows users to input two numbers and perform five different mathematical operations, namely, addition(+), subtraction(-), multiplication(*), division(/), and modulus(%). Please input 2 numbers and choose an operation.
+      
+    </p>
+  
+    <input type="number" id="num1" placeholder="Num 1">
+  
+    <input type="number" id="num2" placeholder="Num 2">
+  
+    <br><br>
+  
+    <button onclick="calculate('+')">+</button>
+  
+    <button onclick="calculate('-')">-</button>
+  
+    <button onclick="calculate('*')">*</button>
+  
+    <button onclick="calculate('/')">/</button>
+  
+    <button onclick="calculate('%')">%</button>
+  
+    <p id="result">Results will be displayed here.</p>
+  
+    <script src="script.js"></script>
+  
+</body>
+  
+</html>
